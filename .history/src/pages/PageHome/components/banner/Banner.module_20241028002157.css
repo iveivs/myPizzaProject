@@ -1,0 +1,30 @@
+.modif_row {
+    /* color: red; */
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: #;
+}
+
+.banner_img {
+    
+}
+
+.banner_title {
+    font-size: 110px;
+}
+
+.left_infobox {
+    width: 100%;
+}
+
+.temp {
+    width: 100%;
+}
+.temp1 {
+    background-color: aquamarine;
+}

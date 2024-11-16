@@ -1,0 +1,22 @@
+.footer {
+    
+}
+.footer h3{
+    margin-bottom: 10px;
+}
+.footer a{
+    text-align: left !important;
+}
+.footer_row {
+    justify-content: space-between;
+}
+.footer a {
+    color: #333;
+}
+.footer_items {
+    margin: 0;
+    padding: 0;
+}
+.footer_about {
+    margin: 0 !important;
+}

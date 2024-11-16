@@ -1,0 +1,13 @@
+.modif_row {
+    color: red;
+    display: flex;
+    flex-direction: row !important;
+}
+
+h1 {
+    color: aqua ;
+}
+
+.banner_img {
+    width: 300px;
+}

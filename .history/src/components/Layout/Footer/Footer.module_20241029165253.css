@@ -1,0 +1,16 @@
+.footer {
+    
+}
+.footer h3{
+    text-align: center;
+}
+.footer_row {
+    /* align-items: flex-start; */
+    justify-content: space-between;
+}
+.footer a {
+    color: #333;
+}
+.footer_about {
+    margin: 0 !important;
+}

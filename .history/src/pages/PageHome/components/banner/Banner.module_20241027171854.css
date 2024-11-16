@@ -1,0 +1,25 @@
+.modif_row {
+    /* color: red; */
+    display: flex;
+    flex-direction: row !important;
+}
+
+h1 {
+    color: aqua;
+}
+
+.banner_img {
+    
+}
+
+.left_infobox {
+    
+}
+
+.temp {
+    border: 1px solid #ccc;
+    color: green !important;
+}
+.temp1 {
+    background-color: aquamarine;
+}

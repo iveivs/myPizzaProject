@@ -1,0 +1,30 @@
+.review_item {
+    width: 100px;
+    border: 1px solid #ccc;
+}
+
+.items_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.slides {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    width: 900px; 
+}
+.slide {
+    flex: 0 0 300px; 
+    text-align: center;
+}
+.left_arrow {
+    font-size: 24px;
+    cursor: pointer;
+    colorrgb(236, 67, 0);
+}
+.right_arrow {
+    font-size: 24px;
+    cursor: pointer;
+}

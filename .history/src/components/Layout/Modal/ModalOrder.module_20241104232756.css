@@ -1,0 +1,12 @@
+.overlay {
+    width: 100wh;
+}
+.wrapper {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    background-color: honeydew;
+    z-index: 10;
+}

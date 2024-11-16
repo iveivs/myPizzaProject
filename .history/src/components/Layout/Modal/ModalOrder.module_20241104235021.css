@@ -1,0 +1,19 @@
+.overlay {
+    /* position: absolute; */
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ccc;
+    z-index: 10;
+    opacity: 50%;
+    
+}
+.wrapper {
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    
+    margin: 0 auto;
+    z-index: 100;
+}

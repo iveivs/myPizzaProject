@@ -1,0 +1,15 @@
+.products_title {
+    text-align: center;
+    font-size: 48px;
+}
+
+.product_button {
+    d
+    text-decoration: none;
+    color: rgb(236, 67, 0);
+}
+
+.product_bottom {
+    display: flex;
+    flex-direction: column;
+}

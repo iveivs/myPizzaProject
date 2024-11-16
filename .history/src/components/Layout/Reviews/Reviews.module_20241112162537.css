@@ -1,0 +1,44 @@
+/* .items_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+} */
+
+.reviews_title {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 60px;
+}
+
+
+
+.left_arrow,
+.right_arrow {
+    font-size: 24px;
+    cursor: pointer;
+    color: rgba(236, 67, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left_arrow {
+    left: 0px;
+}
+
+.right_arrow {
+    right: 0px;
+}
+
+.disabled_arrow {
+    color: #ccc;
+    cursor: default;
+    pointer-events: none;
+}
+
+.image {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+

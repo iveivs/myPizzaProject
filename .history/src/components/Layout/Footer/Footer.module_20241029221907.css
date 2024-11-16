@@ -1,0 +1,24 @@
+.footer {
+    
+}
+.footer h3{
+    /* text-align: center; */
+}
+.footer a{
+    text-align: left !important;
+}
+.footer_row {
+    /* align-items: flex-start; */
+    justify-content: space-between;
+}
+.footer a {
+    color: #333;
+}
+.footer_item li a{
+    /* text-align: left; */
+    /* margin: 0 auto; */
+    color: red;
+}
+.footer_about {
+    margin: 0 !important;
+}

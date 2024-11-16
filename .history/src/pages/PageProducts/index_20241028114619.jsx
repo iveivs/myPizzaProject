@@ -1,0 +1,40 @@
+import styles from './PageProducts.module.css'
+import { isDataArray } from '../../utils/utils'
+const products = [
+    {id: 1, name: 'Товар 1', description: 'some text', price: 1000, src: '/images/product'},
+    {id: 2, name: 'Товар 2', description: 'some text', price: 2000},
+    {id: 3, name: 'Товар 3', description: 'some text', price: 3000},
+    {id: 4, name: 'Товар 4', description: 'some text', price: 4000},
+    {id: 5, name: 'Товар 5', description: 'some text', price: 1000},
+    {id: 6, name: 'Товар 6', description: 'some text', price: 2000},
+    {id: 7, name: 'Товар 7', description: 'some text', price: 3000},
+    {id: 8, name: 'Товар 8', description: 'some text', price: 4000},
+]
+
+function PageProducts() {
+    console.log('TEST');
+    return(
+        <div className='indent container'>
+            <h2 className={`${styles.products_title}`}>Products</h2>
+            <div className="row">
+                {
+                    isDataArray(products) ? (
+                        products.map( product => {
+                            return (
+                                <div key={product.id} className={"col-4 " + styles.product}>
+                                    <h3>{product.name}</h3>
+                                    <p>{product.price} руб</p>
+                                </div>
+                            ) 
+                        })
+                    ) : (
+                        <p>Товары не найдены</p>
+                    )
+                }
+            </div>
+        </div>
+    )
+}
+
+export default PageProducts
+

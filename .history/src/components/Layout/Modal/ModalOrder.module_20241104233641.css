@@ -1,0 +1,17 @@
+.overlay {
+    /* position: absolute; */
+    /* width: 100vw; */
+    /* height: 100vh; */
+    /* background-color: honeydew; */
+    /* z-index: 10; */
+}
+.wrapper {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    background-color: ;
+    z-index: 10;
+    opacity: 80%;
+}

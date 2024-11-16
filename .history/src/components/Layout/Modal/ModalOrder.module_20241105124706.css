@@ -1,0 +1,38 @@
+.overlay {
+    /* position: absolute; */
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+    background-color: rgba(0,0,0, .2);
+    z-index: 10;
+    /* opacity: 10%; */
+    
+}
+.wrapper {
+    width: 800px;
+    height: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    z-index: 100;
+    border-radius: 10px;
+}
+.item {
+    display: flex;
+    gap: 20px;
+}
+.img {
+    /* padding-top: 40px; */
+    padding-left: 20px;
+    width: 40%;
+}
+.info {
+    padding-top: 60px;
+}
+.title {
+    margin-bottom: 20px;
+}
+.description {
+    margin-bottom: 20px;
+}
